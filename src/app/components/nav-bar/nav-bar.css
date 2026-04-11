@@ -1,0 +1,52 @@
+nav{
+  border: 1px solid red;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+
+.esquerda ul{
+  border: 1px solid blue;
+
+
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.esquerda ul li {
+  margin: 10px;
+  list-style: none;
+  text-decoration: none;
+  justify-content: center;
+  font-size: 40px;
+} a {
+    color: Black;
+}
+
+.direita ul{
+  border: 1px solid green;
+
+
+  display: flex;
+  flex-direction: row;
+}
+
+.direita ul li {
+  margin: 10px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 35px;
+
+} a {
+    color: Black;
+}
+
+.logo {
+  width: 120px;
+}
