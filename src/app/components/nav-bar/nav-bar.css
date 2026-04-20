@@ -1,52 +1,82 @@
-nav{
-  border: 1px solid red;
+:root {
+  --cor-primaria: #3f4659;
+  --cor-secundaria: #1e1f24;
+  --cor-hover: #121318;
+  --cor-texto: #cacbd0;
+}
+
+nav {
+  min-height: 824px;
+  max-width: 1248;
+  width: 320px;
+  border-radius: 28px;
+
+  padding: 20px 10px 25px 10px;
+  margin: 20px 20px 20px 70px;
 
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #1e1f24;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: #cacbd0;
 }
 
-.esquerda ul{
-  border: 1px solid blue;
-
-
+p span {
+  color: #cacbd0;
+}
+.superior ul {
   display: flex;
-  flex-direction: row;
-
-
+  flex-direction: column;
 }
 
-.esquerda ul li {
+.superior ul li {
   margin: 10px;
   list-style: none;
   text-decoration: none;
   justify-content: center;
-  font-size: 40px;
-} a {
-    color: Black;
+  font-size: 15px;
 }
 
-.direita ul{
-  border: 1px solid green;
+.home {
+  background-color: #3f4659;
+}
 
+.inferior {
+  min-height: 512px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inferior ul {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+li {
+  padding: 15px 5px 15px 10px;
+  border-radius: 15px;
 }
 
-.direita ul li {
+.inferior ul li {
   margin: 10px;
   list-style: none;
   text-decoration: none;
-  font-size: 35px;
-
-} a {
-    color: Black;
+  font-size: 15px;
 }
 
-.logo {
-  width: 120px;
+hr {
+  border: none;
+  border-top: 1px solid #3f4659;
+}
+
+.card__continueAssistindo{
+
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
 }

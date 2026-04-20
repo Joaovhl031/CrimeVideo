@@ -1,0 +1,34 @@
+:root {
+  --cor-primaria: #3f4659;
+  --cor-secundaria: #1e1f24;
+  --cor-hover: #121318;
+  --cor-texto: #cacbd0;
+}
+
+.conteiner {
+  margin-top: 10px;
+  color: #888992;
+
+  display: flex;
+  justify-content: space-between;
+}
+.esquerda {
+  display: flex;
+} p{
+  color: #bdbec7;
+  font-size: 15px;
+}
+span{
+  font-size: 12px;
+}
+
+div {
+  margin: 5px;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #cacbd0;
+}

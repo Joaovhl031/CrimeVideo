@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { CardAssistidos } from "../card-assistidos/card-assistidos";
 
 @Component({
   selector: 'app-nav-bar',
-  imports: [],
+  imports: [CardAssistidos],
   templateUrl: './nav-bar.html',
   styleUrl: './nav-bar.css',
 })
